@@ -4,10 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     getDataButton.addEventListener('click', function () {
         const country = countryInput.value.trim();
-        console.log(country);
 
         const apiUrl = `https://covid-193.p.rapidapi.com/statistics?country=${country}`;
-        const apiKey = '';
+        const apiKey = '29876713b9mshb38511492b6c045p1a592ajsnc17100baa1e4';
 
         const options = {
             method: 'GET',
